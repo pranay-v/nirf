@@ -1,0 +1,11 @@
+.ItmButton{
+    padding:1%;
+    border-radius: 10%;
+    width: 100%;
+}
+
+.ItemWrapper{
+    margin-left: 10%;
+    margin-right: 10%;
+    width:80%;
+}

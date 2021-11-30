@@ -1,0 +1,70 @@
+.ranking-filter {
+    color: black;
+    /*padding: 0 1rem;*/
+    width:30%;
+    float:right;
+    margin-bottom: 1em;
+    position:sticky;
+    top:0;
+  }
+  
+  .ranking-filter__control {
+    display: flex;
+    /*width: 70%;*/
+    align-items:flex-end;
+    justify-content:space-around;
+    /*background-color:coral;*/
+    background-color: rgba(255, 127, 80, 0.562);
+    /*background-color: green;*/
+    /*background-color: white;*/
+    border-radius: 20%;
+    padding: 2%;
+    /*margin: 1rem 0;
+    margin-left:0;*/
+  }
+  
+  .ranking-filter label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    /*background-color: rgba(255, 127, 80, 0.562);*/
+    background-color: rgba(255, 127, 80, 0.0);
+    /*background-color: rgba(255, 127, 80, 0.562);*/
+    /*background-color: green;*/
+    /*background-color: black;*/
+    /*background-color: blanchedalmond;*/
+    /*background-color: white;*/
+  }
+  
+  .ranking-filter select {
+    font: inherit;
+    padding: 0.5rem 3rem;
+    font-weight: bold;
+    border-radius: 6px;
+    float: right;
+    background-color: blanchedalmond;
+  }
+
+  .back{
+    float:left;
+    width:5%;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    position: sticky;
+    padding-top: 0;
+    top:0;
+  }
+
+  .table {
+    border: 2px solid black;
+    font-weight: 500;
+  }
+  
+  .trow{
+    border: 2px solid black;
+    font-weight: 500;
+  }
+
+  .tcols{
+    border-left: 10px solid black;
+    font-weight: 400;
+  }

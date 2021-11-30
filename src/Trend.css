@@ -1,0 +1,38 @@
+.TrendWrap{
+    /*background-color: #68BBe3;*/
+    /*background-color: #5885AF;*/
+    /*background-color: #A4E5E0;*/
+    /*background-color: #5885AF;*/
+    background-color: #61dafb;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.back{
+    float:left;
+    width:5%;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    position: sticky;
+    top:10px;
+    padding-top: 0;
+}
+
+trendcover{
+   /* background-color:cadetblue;*/
+    padding-top:5%;
+    padding-bottom:5%;
+}
+
+.tmsg{
+    /*background-color: #68BBE3;*/
+    /*background-color: #A4E5E0;*/
+    background-color: aliceblue;
+    padding: 1%;
+    text-align: center;
+    margin:0;
+    position: sticky;
+    top:0;
+    /*color:#5885AF*/
+}
+

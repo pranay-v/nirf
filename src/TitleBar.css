@@ -1,0 +1,14 @@
+.tbar{
+    text-align: center;
+    top:0;
+    /*background-color: #61dafb;*/
+    /*position:sticky;*/
+}
+
+h1{
+    margin-top: 0;
+    background-color: #61dafb;
+   /* background-color: #B0B0B0;*/
+    padding-bottom: 1%;
+    /*margin-bottom:2%;*/
+}

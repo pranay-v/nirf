@@ -1,0 +1,39 @@
+.optionWrapper{
+    display:flex;
+    flex-direction: row;
+  flex-wrap: wrap;
+  flex-basis: 33.33%;
+}
+
+button{
+    width:33.33%;
+    padding-top: 2%;
+}
+
+img{
+    width:80%;
+}
+
+.caption{
+    margin-bottom:0;
+    /*margin-top: 1vh;*/
+    background-color: bisque;
+}
+.covering{
+    background-color:aliceblue;
+    /*background-color: #112832;*/
+    /*margin-bottom: 2%;*/
+    padding-top: 5%;
+}
+
+.trnd{
+    width:74%;
+    margin-bottom: 2%;
+}
+
+.pred{
+    width:95%;
+    height:77%;
+    margin-bottom: 2%;
+   /* margin-bottom: %;*/
+}
