@@ -3,6 +3,8 @@ this will be displayed*/
 import trend from "./trend.png";
 import rank from "./ranks.png";
 import prediction from "./prediction.png";
+import predicticn from "./prediction_icn.jpg";
+import predfn from "./predfin.png";
 import "./Options.css";
 const Options = (props) =>
 {
@@ -19,7 +21,7 @@ const Options = (props) =>
             <div className = "caption"><center><label><h2>RANKS</h2></label></center></div>
         </button>
         <button onClick = {() => props.chooser("prediction")}>
-            <img alt = "predictions" className = "pred" src = {prediction}/><br/>
+            <img alt = "predictions" className = "pred" src = {predicticn}/><br/>
             <div className = "caption"><center><label><h2>PREDICTIONS</h2></label></center></div>
         </button>
         </div>

@@ -33,7 +33,7 @@ setYear(event.target.value);
 return (
         <div>
         <br/>
-        <center><h2>Rankings For {currYear}</h2></center>
+        <center><h2>Rankings for {currYear}</h2></center>
         <button className = "back" onClick = {() => props.return("")}><img src = {back_icon} alt = "back"></img></button>
     
         <RankingFilter year = {currYear} onYearSelect = {changeYear}/>
