@@ -84,5 +84,4 @@ Rank,Institute_ID,Institute_Name,City,State,TLR(100),RPC(100),GO(100),OI(100),Pe
 82,IR-E-C-27616,University College of Engineering,Hyderabad,Telangana,60.98,4.18,56.43,51.98,6.42,36.67
 83,IR-E-C-42054,Army Institute of Technology,Pune,Maharashtra,53.3,1.24,65.45,60.67,8.18,36.34
 84,IR-E-U-0186,Jaypee University of Information Technology,Solan,Himachal Pradesh,46.33,19.23,52.55,52.2,7.3,36.13
-85,IR-E-U-0037,Sri Venkateswara University,Tirupati,Andhra Pradesh,45.64,27.68,42.24,46.41,3.49,35.43
-`;
+85,IR-E-U-0037,Sri Venkateswara University,Tirupati,Andhra Pradesh,45.64,27.68,42.24,46.41,3.49,35.43`;

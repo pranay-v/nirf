@@ -14,7 +14,7 @@ import { rank2016 } from './rankings_2016';
 /*
 this appears when ranking icon is clicked
 The csvtoHTML package belongs to react-csv-to-table which 
-was available on github(maruthapandiyan), so needs to be installed.
+was available on github(marudhapandiyan), so needs to be installed.
 the  files for each year's ranking must be imported,
 basically a js file that has each line belonging to a row of ranking.
 a filter is present which allows year to be toggled, on toggling
@@ -37,7 +37,7 @@ return (
         <button className = "back" onClick = {() => props.return("")}><img src = {back_icon} alt = "back"></img></button>
     
         <RankingFilter year = {currYear} onYearSelect = {changeYear}/>
-        <center><CsvToHtmlTable data={files[2021-currYear]} csvDelimiter="," tableClassName="table table table-bordered table-striped "   tableColumnClassName = "tcols"/></center>
+        <center><CsvToHtmlTable data={files[2021-currYear]} csvDelimiter="," tableClassName="table table table-bordered table-striped"   tableColumnClassName = "tcols"/></center>
         </div>
     );
 

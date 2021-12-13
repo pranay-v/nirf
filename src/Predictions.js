@@ -2,7 +2,7 @@
 /*
 this appears when predict icon is clicked
 The csvtoHTML package belongs to react-csv-to-table which 
-was available on github(maruthapandiyan), so needs to be installed.
+was available on github(marudhapandiyan), so needs to be installed.
 the  files for each parameter's ranking must be imported,
 basically a js file that has each line belonging to a row of ranking.
 a filter is present which allows parameter to be toggled, on toggling

@@ -1,5 +1,5 @@
 /*This is an entry level page that opens when user clicks on trends in 'options'
-Here we'll have a list of universities of 5+ yrs data, and any can be opened depending on what user clicks
+Here we'll have a list of universities of 4+ yrs data, and any can be opened depending on what user clicks
 if the value of currTrent state is " " then the entry level list is displayed. whenever one of the
 university buttons is clicked the state changes and the corresponding details for that univ are rendered.
 the dataset is imported first and then, another object called 'univs' is created.
@@ -54,10 +54,16 @@ const Trend = (props) =>
     }
    
   else{
-     let pathmain = "./project_graphs"; 
+     let pathmain = "./graphs/graphs"; 
      let parapath = pathmain +  "/" +  currTrend + ".png";
      let overpath = pathmain + "/" + currTrend + "_overall.png";
-     List = <TrendDetails reset = {changeTrend} name = {currTrend} parameterpath = {parapath} overallpath = {overpath}></TrendDetails>
+     let tlrpath = pathmain + "/" + currTrend + "_tlr.png";
+     let rpcpath = pathmain + "/" + currTrend + "_rpc.png";
+     let gopath = pathmain + "/" + currTrend + "_go.png";
+     let oipath = pathmain + "/" + currTrend + "_oi.png";
+     let prpath = pathmain + "/" + currTrend + "_pr.png";
+     List = <TrendDetails reset = {changeTrend} name = {currTrend} parameterpath = {parapath} overallpath = {overpath}
+     tlrpath = {tlrpath} rpcpath = {rpcpath} gopath = {gopath} oipath = {oipath} prpath = {prpath}></TrendDetails>
   }
 
        

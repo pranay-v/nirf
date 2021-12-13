@@ -1,18 +1,126 @@
 .imgwrap{
-    width:40%;
+    width:33.3%;
     /*background-color: cadetblue;*/
-    margin-left:30%;
-    margin-right:30%;
+   /* margin-left:30%;*/
+    /*margin-right:30%;*/
+    display: flex;
+    text-align: center;
+    /*margin-bottom: 10%;*/
+    /*margin: 0;*/
+    align-items: center;
+    margin-top: 5%;
 }
 
 .imgwrap img{
     border: 0.2em solid black;
+    height: 100%;
 }
 .trendpic{
-    width:100%;
-    margin-bottom:5%;
+    /*width:100%;*/
+    width: 80%;
+    /*margin-left: 10%;*/
+    /*margin-bottom:5%;
+    margin-left: 60%;*/
+}
+.imgwrap .trdiv label{
+    /*margin-left:70%;*/
+    /*margin-left: 50%;*/
+    width:80%;
+}
+.trd{
+    /*margin-left: 2%;*/
+    width: 100%;
+
 }
 
+.overallpic{
+    margin-bottom: 5%;
+}
+.trdiv{
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+.gobckbtn{
+    background-color:sandybrown;
+    /*color: whitesmoke;*/
+}
+/*.gobckbtn{
+    background-color:tomato;
+}*/
+
+.goforwardbtn
+{
+    background-color: green;
+    color:antiquewhite;
+}
+
+.goforwardbtn:hover{
+    background-color: olive;
+}
+.gobckbtn:hover{
+    background-color:burlywood;
+}
+
+.input_errormsg{
+    /*display: none;*/
+    color:red;
+}
+.improve{
+    /*margin-left: 10%;
+    margin-top: 5%;
+    margin-right: 2%;
+    margin-bottom: 18%;*/
+    background-color: cadetblue;
+    padding: 2%;
+    margin-left: 35%;
+    margin-right: 30%;
+    /*width: 35%;*/
+    width: 30%;
+    text-align: center;
+    /*margin-bottom: 10%;*/
+}
+
+.impbtn{
+    background-color: darkgreen;
+    color: whitesmoke;
+    padding: 1%;
+    border-radius: 10%;
+    height: 1%;
+    width: 50%;
+    /*margin-bottom: %;*/
+}
+
+.impbtn:hover{
+background-color: darkolivegreen;
+}
+
+#rank{
+    width: 80%;
+    margin-bottom: 2%;
+}
+.improve-inner{
+    padding-bottom: 10%;
+}
+.improve-inner > *, .improve-inner > div > *{
+    /*background-color: cadetblue;*/
+    padding: 3%;
+    text-align: center;
+}
+
+.input_errormsg{
+    padding-bottom:0;
+    padding-top:0;
+}
+
+.picspanel{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 33.333333%;
+    flex-wrap: wrap;
+    /*margin-bottom: 10%;*/
+}
 .backtrend{
     float:left;
     width:5%;
@@ -26,4 +134,7 @@
 
 .detailhead{
     padding-top: 1em;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
 }

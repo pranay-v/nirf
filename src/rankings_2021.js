@@ -199,5 +199,4 @@ Rank,Institute_ID,Institute_Name,City,State,TLR(100),RPC(100),GO(100),OI(100),Pe
 197,IR-E-C-27400,Kakatiya Institute of Technology & Science,Warangal,Telangana,55.80,1.64,49.13,49.25,4.90,32.48
 197,IR-E-C-33584,K. J. Somaiya College of Engineering,Mumbai,Maharashtra,52.22,3.33,58.94,38.08,2.17,32.48
 199,IR-E-C-11015,Walchand College of Engineering,Sangli,Maharashtra,48.25,4.54,56.11,47.93,6.19,32.46
-200,IR-E-U-0037,Sri Venkateswara University,Tirupati,Andhra Pradesh,41.76,25.59,37.58,43.31,3.56,32.42
-`;
+200,IR-E-U-0037,Sri Venkateswara University,Tirupati,Andhra Pradesh,41.76,25.59,37.58,43.31,3.56,32.42`;

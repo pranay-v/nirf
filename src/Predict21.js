@@ -1,3 +1,8 @@
+/*
+ Page that is opened when the state is 2021 , i.e button for 2021 prediction is clicked.
+ shows 21's actual rankings by default, on changing you can view the prediction thru the
+ select dropdown.
+*/
 import { CsvToHtmlTable } from 'react-csv-to-table';
 import { useState } from 'react';
 import back_icon from "./back_icon.jpg";

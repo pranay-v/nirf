@@ -2,9 +2,9 @@
 this will be displayed*/
 import trend from "./trend.png";
 import rank from "./ranks.png";
-import prediction from "./prediction.png";
+//import prediction from "./prediction.png";
 import predicticn from "./prediction_icn.jpg";
-import predfn from "./predfin.png";
+//import predfn from "./predfin.png";
 import "./Options.css";
 const Options = (props) =>
 {

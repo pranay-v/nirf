@@ -1,3 +1,6 @@
+/*
+The thing you see on top of the screen.
+*/
 import "./TitleBar.css";
 
 const TitleBar = () =>
