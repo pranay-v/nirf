@@ -55,13 +55,16 @@ const Trend = (props) =>
    
   else{
      let pathmain = "./graphs/graphs"; 
-     let parapath = pathmain +  "/" +  currTrend + ".png";
-     let overpath = pathmain + "/" + currTrend + "_overall.png";
-     let tlrpath = pathmain + "/" + currTrend + "_tlr.png";
-     let rpcpath = pathmain + "/" + currTrend + "_rpc.png";
-     let gopath = pathmain + "/" + currTrend + "_go.png";
-     let oipath = pathmain + "/" + currTrend + "_oi.png";
-     let prpath = pathmain + "/" + currTrend + "_pr.png";
+     let changedcurrTrend = currTrend;
+     //currTrend = currTrend.replace("&","_");
+     changedcurrTrend = currTrend.replace("&","_");
+     let parapath = pathmain +  "/" +  changedcurrTrend + ".png";
+     let overpath = pathmain + "/" + changedcurrTrend + "_overall.png";
+     let tlrpath = pathmain + "/" + changedcurrTrend + "_tlr.png";
+     let rpcpath = pathmain + "/" + changedcurrTrend + "_rpc.png";
+     let gopath = pathmain + "/" + changedcurrTrend + "_go.png";
+     let oipath = pathmain + "/" + changedcurrTrend + "_oi.png";
+     let prpath = pathmain + "/" + changedcurrTrend + "_pr.png";
      List = <TrendDetails reset = {changeTrend} name = {currTrend} parameterpath = {parapath} overallpath = {overpath}
      tlrpath = {tlrpath} rpcpath = {rpcpath} gopath = {gopath} oipath = {oipath} prpath = {prpath}></TrendDetails>
   }
